@@ -1,11 +1,11 @@
 # 🏦 Aplication_Bank
 Este proyecto fue creado en **Java** usando **Spring Boot** y **Maven**.  
-Su objetivo es poder hacer las operaciones que un banco hace normalmente,por ejemplo (Transacciones, Retiros, Depositos, etc).
+Su objetivo es poder hacer las operaciones que un banco hace normalmente,por ejemplo (Transacciones, Retiros, Depositos, etc).  
 
 ## 📄 Características
 - Hecho con Spring Boot + Java
 - API REST con endpoints documentados
-- probado con Thunder Client
+- probado con Thunder Client  
 
 ## 📤 Aplicaciones Principales (Obligatorias)
 ‣ 🟦 **Visual Studio Code** | Esta es la App que permite editar todo el codigo, ejecutarlo y instalar las extensiones. | [Descargar](https://vscode.download.prss.microsoft.com/dbazure/download/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/VSCodeUserSetup-x64-1.105.1.exe)  
@@ -20,3 +20,14 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 ▪ 💚 **Spring Boot Extension Pack** | Extensiones esenciales para desarrollar con Spring Boot. | [Descargar](https://marketplace.visualstudio.com/items?itemName=pivotal.vscode-boot-dev-pack)  
 ▪ 🚀 **Spring Boot Dashboard** | Permite correr, detener y monitorear proyectos Spring Boot fácilmente. | [Descargar](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard)  
 ▪ ⚡ **Thunder Client** | Cliente REST para probar APIs directamente en VS Code. | [Descargar](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)  
+
+## 😎 Pasos para abrir y ejecutar el codigo correctamente
+## |Paso 1️⃣|  
+› Lo principal es descargar JDK y Visual Studio Code desde la seccion de (📤 Aplicaciones Principales)  
+
+## |Paso 2️⃣|  
+› Abrir Visual Studio
+
+## |Paso 3️⃣|  
+› Descargar las extensiones
+
