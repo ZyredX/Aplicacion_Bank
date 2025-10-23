@@ -64,5 +64,5 @@ Tenemos que crear el "New request"
 
 5. Le dariamos CLick al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
 
-<img src="img/thunder1.png" alt="Thunder Agregar cliente" width="450">  
+<img src="img/thunder1.png" alt="Thunder Agregar cliente" width="800">  
 
