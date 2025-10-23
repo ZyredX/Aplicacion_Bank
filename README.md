@@ -36,10 +36,16 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 ## |Paso 4️⃣|  
 › Abrir el proyecto (Se tiene que descargar previamente, desde la parte de "<> code" y "Download Zip", luego se extrae en una carpeta) para abrirla se hace:  
 
-<img src="img/Abrircarpeta.png" alt="Instalar extensiones" width="450">  
+<img src="img/Abrircarpeta.png" alt="Abrir carpeta" width="450">  
 
 ## |Paso 5️⃣|  
 › Para correr el proyecto desde Spring Boot, se necesitan las extensiones que se ubican en (📦 Extensiones Usadas), luego irse al icono de Spring y hacer esto:  
 
 <img src="img/abrirSpringboot.png" alt="Instalar extensiones" width="450">  
+
+## |Paso 6️⃣|  
+› Para probar que el proyecto funciona necesitamos thunder, que es una de las extensiones que se necesitan descargar.  
+Tenemos que crear el "New request"  
+
+<img src="img/crearthunder.png" alt="Crear Thunder" width="450">  
 
