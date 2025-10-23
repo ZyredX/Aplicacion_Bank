@@ -73,15 +73,21 @@ Tenemos que crear el "New request"
 <img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
 
 ## Otros Metodos 
+
 ## 💰| Crear Cuenta (Corriente)  
 • En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
-• Metodo: **POST**
-• Archivo JSON:
+• Metodo: **POST**  
+• Archivo JSON:  
 {
   "type": "1" ,
   "accountId": "1" ,
   "parameter": 300.0
 }  
+
+## 🔎| Buscar Cuenta por ID  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}  
+• Metodo: **GET**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
 
 
 ## 🔑 CREDITOS 
