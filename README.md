@@ -26,9 +26,16 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 › Lo principal es descargar JDK y Visual Studio Code desde la seccion de (📤 Aplicaciones Principales)  
 
 ## |Paso 2️⃣|  
-› Abrir Visual Studio code
+› Abrir Visual Studio code.
 
 ## |Paso 3️⃣|  
-› Descargar las extensiones  
+› Descargar las extensiones.  
 
-<img src="img/instalar_ext.jpg" alt="Instalar extensiones" width="450">
+<img src="img/instalar_ext.jpg" alt="Instalar extensiones" width="450">  
+
+## |Paso 4️⃣|  
+› Abrir el proyecto (Se tiene que descargar previamente, desde la parte de "<> code" y "Download Zip", luego se extrae en una carpeta) para abrir la carpeta es:  
+
+<img src="img/Abrircarpeta.png" alt="Instalar extensiones" width="450">  
+
+
