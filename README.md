@@ -115,4 +115,4 @@ Tenemos que crear el "New request"
 ## 🔑 CREDITOS 
 
 » Este trabajo fue supervisado por **Daniel Felipe**, quien brindó apoyo constante para que todo funcionara correctamente.  
-Agradezco su ayuda y dedicación durante el desarrollo del proyecto. 🙌
+Agradezco su ayuda y dedicación durante el desarrollo del proyecto.
