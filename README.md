@@ -62,7 +62,12 @@ Tenemos que crear el "New request"
   "email": "juancarlossalazar@gmail.com"
 }
 
-5. Le dariamos CLick al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
+5. Le dariamos click al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
 
 <img src="img/thunder1.png" alt="Thunder Agregar cliente" width="800">  
 
+## |Paso 8️⃣|  
+› Para verificar que el thunder envio el codigo JSON al servidor local, se coloca el mismo URL que usamos en este caso es
+( http://localhost:8080/api/bank/customers ) esta URL se coloca en un navegador y deberia salir asi:  
+
+<img src="img/mostrarJSOn.png" alt="Crear Thunder" width="450">  
