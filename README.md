@@ -7,15 +7,6 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 - API REST con endpoints documentados
 - probado con Thunder Client
 
-
-
-
-
-
-
-
-
-
 ## 📤 Aplicaciones Principales (Obligatorias)
 ‣ 🟦 **Visual Studio Code** | Esta es la App que permite editar todo el codigo, ejecutarlo y instalar las extensiones. | [Descargar](https://vscode.download.prss.microsoft.com/dbazure/download/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/VSCodeUserSetup-x64-1.105.1.exe)  
 ‣ 🟫 **Java SE Development Kit (JDK)** | Es el paquete que contiene todo lo necesario para desarrollar y ejecutar programas java. | [Descargar](https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe)
