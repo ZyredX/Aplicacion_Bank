@@ -34,8 +34,12 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 <img src="img/instalar_ext.jpg" alt="Instalar extensiones" width="450">  
 
 ## |Paso 4️⃣|  
-› Abrir el proyecto (Se tiene que descargar previamente, desde la parte de "<> code" y "Download Zip", luego se extrae en una carpeta) para abrir la carpeta es:  
+› Abrir el proyecto (Se tiene que descargar previamente, desde la parte de "<> code" y "Download Zip", luego se extrae en una carpeta) para abrirla se hace:  
 
 <img src="img/Abrircarpeta.png" alt="Instalar extensiones" width="450">  
 
+## |Paso 5️⃣|  
+› Para correr el proyecto desde Spring Boot, se necesitan las extensiones que se ubican en (📦 Extensiones Usadas), luego irse al icono de Spring y hacer esto:  
+
+<img src="img/abrirSpringboot.png" alt="Instalar extensiones" width="450">  
 
