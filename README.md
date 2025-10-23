@@ -3,7 +3,7 @@ Este proyecto fue creado en **Java** usando **Spring Boot** y **Maven**.
 Su objetivo es poder hacer las operaciones que un banco hace normalmente,por ejemplo (Transacciones, Retiros, Depositos, etc).  
 
 ## 📄 Características
-- Hecho con Spring Boot + Java
+- Hecho con **Spring Boot + Java**
 - API REST con endpoints documentados
 - probado con Thunder Client  
 
@@ -23,10 +23,10 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 
 ## 😎 Pasos para abrir y ejecutar el codigo correctamente
 ## |Paso 1️⃣|  
-› Lo principal es descargar JDK y Visual Studio Code desde la seccion de (📤 Aplicaciones Principales)  
+› Lo principal es descargar **JDK** y **Visual Studio Code** desde la seccion de (📤 Aplicaciones Principales)  
 
 ## |Paso 2️⃣|  
-› Abrir Visual Studio code.
+› Abrir **Visual Studio code**.
 
 ## |Paso 3️⃣|  
 › Descargar las extensiones.  
@@ -39,7 +39,7 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 <img src="img/Abrircarpeta.png" alt="Abrir carpeta" width="450">  
 
 ## |Paso 5️⃣|  
-› Para correr el proyecto desde Spring Boot, se necesitan las extensiones que se ubican en (📦 Extensiones Usadas), luego irse al icono de Spring y hacer esto:  
+› Para correr el proyecto desde **Spring Boot**, se necesitan las extensiones que se ubican en (📦 Extensiones Usadas), luego irse al icono de Spring y hacer esto:  
 
 <img src="img/abrirSpringboot.png" alt="Instalar extensiones" width="450">  
 
@@ -50,11 +50,11 @@ Tenemos que crear el "New request"
 <img src="img/crearthunder.png" alt="Crear Thunder" width="450">  
 
 ## |Paso 7️⃣|  
-› Luego de crear el Thunder, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
-1. Colocar de manera correcta la URL en la mayoria de casos usa el puerto 8080 ( http://localhost:8080/api/bank/customers )
+› Luego de crear el **Thunder**, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
+1. Colocar de manera correcta la **URL** en la mayoria de casos usa el puerto 8080 ( http://localhost:8080/api/bank/customers )
 2. Verificar que el endpoint, sea el correcto, para saber cual usar se puede verificar desde el apartado de controlador.
 3. Irse a la parte de body para copiar el codigo correspondiente.  
-4. Colocar el codigo JSON, en este caso seria este:  
+4. Colocar el codigo **JSON**, en este caso seria este:  
 
 {
   "id": "1" ,
@@ -67,7 +67,12 @@ Tenemos que crear el "New request"
 <img src="img/thunder1.png" alt="Thunder Agregar cliente" width="800">  
 
 ## |Paso 8️⃣|  
-› Para verificar que el thunder envio el codigo JSON al servidor local, se coloca el mismo URL que usamos en este caso es
-( http://localhost:8080/api/bank/customers ) esta URL se coloca en un navegador y deberia salir asi:  
+› Para verificar que el thunder envio el codigo **JSON** al servidor local, se coloca el mismo URL que usamos en este caso es  
+( http://localhost:8080/api/bank/customers ) esta **URL** se coloca en un navegador y deberia salir asi:  
 
-<img src="img/mostrarJSOn.png" alt="Crear Thunder" width="450">  
+<img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
+
+## 🔑 CREDITOS 
+
+» Este trabajo fue supervisado por **Daniel Felipe**, quien brindó apoyo constante para que todo funcionara correctamente.  
+Agradezco su ayuda y dedicación durante el desarrollo del proyecto. 🙌
