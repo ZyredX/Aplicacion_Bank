@@ -49,3 +49,20 @@ Tenemos que crear el "New request"
 
 <img src="img/crearthunder.png" alt="Crear Thunder" width="450">  
 
+## |Paso 7️⃣|  
+› Luego de crear el Thunder, necesitamos seguir estos 5 pasos para que funcione de manera correcta.  
+1. Colocar de manera correcta la URL en la mayoria de casos usa el puerto 8080 ( http://localhost:8080/api/bank/customers )
+2. Verificar que el endpoint, sea el correcto, para saber cual usar se puede verificar desde el apartado de controlador.
+3. Irse a la parte de body para copiar el codigo correspondiente.  
+4. Colocar el codigo JSON, en este caso seria este:  
+
+{
+  "id": "1" ,
+  "name": "Juan" ,
+  "email": "juancarlossalazar@gmail.com"
+}
+
+5. Le dariamos CLick al boton de "Send" para enviarlo y que se muestre el usuario ya creado.
+
+<img src="img/thunder1.png" alt="Thunder Agregar cliente" width="450">  
+
