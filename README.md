@@ -30,4 +30,4 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 
 ## |Paso 3️⃣|  
 › Descargar las extensiones
-![Vista principal del proyecto](img/instalar_ext.jpg)
+<img src="img/instalar_ext.jpg" alt="Instalar extensiones" width="450">
