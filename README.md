@@ -89,6 +89,28 @@ Tenemos que crear el "New request"
 • Metodo: **GET**  
 • En la parte {id_cuenta}, seria colocar un ID correspondiente  
 
+## 📥| Realizar deposito  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/deposit?amount={monto}    
+• Metodo: **POST**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
+• En el {monto}, se coloca el precio a ingresar  
+
+## 📤| Realizar retiro  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/withdraw?amount={monto}    
+• Metodo: **POST**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
+• En el {monto}, se coloca el precio a retirar  
+
+## 💸| Realizar transferencia 
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/transfer      
+• Metodo: **POST**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
+• Archivo JSON:  
+{
+  "toAccountId": "1" ,
+  "amount": 150
+}  
+
 
 ## 🔑 CREDITOS 
 
