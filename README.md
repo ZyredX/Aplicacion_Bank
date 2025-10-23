@@ -72,6 +72,18 @@ Tenemos que crear el "New request"
 
 <img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
 
+## Otros Metodos 
+## 💰| Crear Cuenta (Corriente)  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
+• Metodo: **POST**
+• Archivo JSON:
+{
+  "type": "1" ,
+  "accountId": "1" ,
+  "parameter": 300.0
+}  
+
+
 ## 🔑 CREDITOS 
 
 » Este trabajo fue supervisado por **Daniel Felipe**, quien brindó apoyo constante para que todo funcionara correctamente.  
