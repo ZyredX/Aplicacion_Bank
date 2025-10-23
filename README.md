@@ -29,5 +29,5 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 › Abrir Visual Studio code
 
 ## |Paso 3️⃣|  
-› Descargar las extensiones
+› Descargar las extensiones  
 <img src="img/instalar_ext.jpg" alt="Instalar extensiones" width="450">
