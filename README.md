@@ -22,12 +22,12 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 ▪ ⚡ **Thunder Client** | Cliente REST para probar APIs directamente en VS Code. | [Descargar](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)  
 
 ## 😎 Pasos para abrir y ejecutar el codigo correctamente
-## |Paso 1️⃣|
+## |Paso 1️⃣|  
 › Lo principal es descargar JDK y Visual Studio Code desde la seccion de (📤 Aplicaciones Principales)  
 
 ## |Paso 2️⃣|  
-› Abrir Visual Studio
+› Abrir Visual Studio code
 
 ## |Paso 3️⃣|  
 › Descargar las extensiones
-
+![Vista principal del proyecto](img/instalar_ext.jpg)
