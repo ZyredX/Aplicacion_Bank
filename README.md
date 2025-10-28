@@ -72,7 +72,15 @@ Tenemos que crear el "New request"
 
 <img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
 
-## Otros Metodos 
+## Otros Metodos  
+## 👥| Buscar todos los usuarios  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers 
+• Metodo: **GET**  
+
+## 🔍| Buscar Cuenta de un Cliente por ID  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts    
+• Metodo: **GET**  
+• En la parte {id_cliente}, seria colocar el ID correspondiente de un cliente ya creado  
 
 ## 💰| Crear Cuenta (Corriente)  
 • En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
