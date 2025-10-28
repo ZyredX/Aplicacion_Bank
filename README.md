@@ -5,7 +5,15 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 ## 📄 Características
 - Hecho con **Spring Boot + Java**
 - API REST con endpoints documentados
-- probado con Thunder Client  
+- Se uso Springdoc OpenAPI para una documentacion automatica
+- probado con Thunder Client
+
+  ## 💾 Arquitectura usada
+⁍ **Controller: ** Es el encargado de los endpoints  
+⁍ **Service: ** Contiene la logica del banco  
+⁍ **Repository: ** Gestiona el almacenamiento y lectura de datos en archivos JSON  
+⁍ **Model: ** Define las entidades principales del sistema  
+⁍ **Exception: ** Maneja las excepciones personalizadas del dominio  
 
 ## 📤 Aplicaciones Principales (Obligatorias)
 ‣ 🟦 **Visual Studio Code** | Esta es la App que permite editar todo el codigo, ejecutarlo y instalar las extensiones. | [Descargar](https://vscode.download.prss.microsoft.com/dbazure/download/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/VSCodeUserSetup-x64-1.105.1.exe)  
@@ -74,7 +82,7 @@ Tenemos que crear el "New request"
 
 ## Otros Metodos  
 ## 👥| Buscar todos los usuarios  
-• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers 
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers  
 • Metodo: **GET**  
 
 ## 🔍| Buscar Cuenta de un Cliente por ID  
@@ -87,9 +95,19 @@ Tenemos que crear el "New request"
 • Metodo: **POST**  
 • Archivo JSON:  
 {
-  "type": "1" ,
+  "type": "CHECKING" ,
   "accountId": "1" ,
   "parameter": 300.0
+}  
+
+## 🔑| Crear Cuenta (Ahorros)  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
+• Metodo: **POST**  
+• Archivo JSON:  
+{
+  "type": "SAVING" ,
+  "accountId": "1" ,
+  "parameter": 0.05
 }  
 
 ## 🔎| Buscar Cuenta por ID  
@@ -118,6 +136,16 @@ Tenemos que crear el "New request"
   "toAccountId": "1" ,
   "amount": 150
 }  
+
+## 💻| Consultar Transacciones de una cuenta  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/transactions      
+• Metodo: **GET**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
+
+## 🧾| Aplicar Intereses a una cuenta de ahorros  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/apply-interest      
+• Metodo: **POST**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
 
 
 ## 🔑 CREDITOS 
