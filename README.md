@@ -147,8 +147,15 @@ Tenemos que crear el "New request"
 • Metodo: **POST**  
 • En la parte {id_cuenta}, seria colocar un ID correspondiente  
 
-# Usando Swagger UI
-1
+# Usando Swagger UI  
+En esta parte se explicara como usar el Swagger UI de **OpenAPI** para generar la documentacion automatica.  
+
+## 🔗 Endpoints principales:  
+Swagger UI (URL): http://localhost:8080/swagger-ui.html  
+Documentación JSON: http://localhost:8080/v3/api-docs  
+
+## ⚙ Información de configuracion (Swagger UI):
+Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 
 ## 🔑 CREDITOS 
 
