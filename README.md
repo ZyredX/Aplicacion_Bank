@@ -158,17 +158,14 @@ Documentación JSON: http://localhost:8080/v3/api-docs
 Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>  
 
 ## Codigo  
-```java
-                   .title("Mi app de banco")  
-                    .description("Esta es la descripción del proyecto")  
-                    .version("1.0.0")  
-                    .contact(new Contact()  
-                        .name("Daniel Garcia")  
-                        .email("correo@ejemplo.com")  
-                        .url("https://url.de.proyecto.com"))  
-                    .license(new License()  
-                        .name("Nombre de la licencia")  
-                        .url("https://url.de.la.licencia.com")));
+```
+.title("Mi app de banco")  
+.description("Esta es la descripción del proyecto")  
+.version("1.0.0")  
+.contact(new Contact()  
+.name("Daniel Garcia")  
+.email("correo@ejemplo.com")  
+.url("https://url.de.proyecto.com"))  
 ```
 
                         
