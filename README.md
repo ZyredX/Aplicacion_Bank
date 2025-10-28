@@ -158,7 +158,8 @@ Documentación JSON: http://localhost:8080/v3/api-docs
 Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>  
 
 ## Codigo  
-```
+
+```java
 .title("Mi app de banco")  
 .description("Esta es la descripción del proyecto")  
 .version("1.0.0")  
@@ -166,8 +167,11 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 .name("Daniel Garcia")  
 .email("correo@ejemplo.com")  
 .url("https://url.de.proyecto.com"))  
-```
+```  
 
+## Prueba con Swagger  
+
+## 1️⃣| /api/bank/customers
                         
 
 ## 🔑 CREDITOS 
