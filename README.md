@@ -155,7 +155,7 @@ Swagger UI (URL): http://localhost:8080/swagger-ui.html
 Documentación JSON: http://localhost:8080/v3/api-docs  
 
 ## ⚙ Información de configuracion (Swagger UI):
-Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
+## Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 
 ## 🔑 CREDITOS 
 
