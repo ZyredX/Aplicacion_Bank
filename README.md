@@ -8,7 +8,7 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 - Se uso Springdoc OpenAPI para una documentacion automatica
 - probado con Thunder Client
 
-  ## 💾 Arquitectura usada
+## 💾 Arquitectura usada
 ⁍ **Controller: ** Es el encargado de los endpoints  
 ⁍ **Service: ** Contiene la logica del banco  
 ⁍ **Repository: ** Gestiona el almacenamiento y lectura de datos en archivos JSON  
@@ -147,6 +147,8 @@ Tenemos que crear el "New request"
 • Metodo: **POST**  
 • En la parte {id_cuenta}, seria colocar un ID correspondiente  
 
+# Usando Swagger UI
+1
 
 ## 🔑 CREDITOS 
 
