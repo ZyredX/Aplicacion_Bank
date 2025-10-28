@@ -78,7 +78,7 @@ Tenemos que crear el "New request"
 • Metodo: **GET**  
 
 ## 🔍| Buscar Cuenta de un Cliente por ID  
-• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts    
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
 • Metodo: **GET**  
 • En la parte {id_cliente}, seria colocar el ID correspondiente de un cliente ya creado  
 
