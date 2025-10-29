@@ -9,11 +9,11 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 - probado con Thunder Client
 
 ## 💾 Arquitectura usada
-⁍ **Controller: ** Es el encargado de los endpoints  
-⁍ **Service: ** Contiene la logica del banco  
-⁍ **Repository: ** Gestiona el almacenamiento y lectura de datos en archivos JSON  
-⁍ **Model: ** Define las entidades principales del sistema  
-⁍ **Exception: ** Maneja las excepciones personalizadas del dominio  
+⁍ **Controller:** Es el encargado de los endpoints  
+⁍ **Service:** Contiene la logica del banco  
+⁍ **Repository:** Gestiona el almacenamiento y lectura de datos en archivos JSON  
+⁍ **Model:** Define las entidades principales del sistema  
+⁍ **Exception:** Maneja las excepciones personalizadas del dominio  
 
 ## 📤 Aplicaciones Principales (Obligatorias)
 ‣ 🟦 **Visual Studio Code** | Esta es la App que permite editar todo el codigo, ejecutarlo y instalar las extensiones. | [Descargar](https://vscode.download.prss.microsoft.com/dbazure/download/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/VSCodeUserSetup-x64-1.105.1.exe)  
