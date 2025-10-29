@@ -223,7 +223,7 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 ## 7️⃣| **Realizar retiro**  
 ⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/withdraw?amount={valor}</kbd>  
 ⩺ {accountId}: Colocar id valido de una cuenta creada  
-⩺ {valor}: Un monto a retirar
+⩺ {valor}: Un monto a retirar  
 ⩺ Metodo: **POST**  
 
 <img src="img/Retiro.jpeg" alt="Retirar dinero" width="750">  
