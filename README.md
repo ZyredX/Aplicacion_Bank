@@ -205,6 +205,50 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 
 <img src="img/Listar cuentas de clientes por id.jpeg" alt="Buscar tipo de cuenta por ID" width="750">   
 
+## 5️⃣| **Consultar Cuenta especifica**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **GET**  
+
+<img src="img/Buscar cuenta por ID.jpeg" alt="Buscar cuenta por ID" width="750">   
+
+## 6️⃣| **Realizar deposito**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/deposit?amount={valor}</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ {valor}: Un monto a colocar
+⩺ Metodo: **POST**  
+
+<img src="img/Deposito.jpeg" alt="Realizar deposito" width="750">  
+
+## 7️⃣| **Realizar retiro**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/withdraw?amount={valor}</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ {valor}: Un monto a retirar
+⩺ Metodo: **POST**  
+
+<img src="img/Retiro.jpeg" alt="Retirar dinero" width="750">  
+
+## 8️⃣| **Transferir dinero entre cuentas**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{fromAccountId}/transfer</kbd>  
+⩺ {fromAccountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **POST**  
+
+<img src="img/Trasnferir C.jpeg" alt="Transferir entre cuentas" width="750">  
+
+## 9️⃣| **Lista de transacciones de una cuenta**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/transactions</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **GET**  
+
+<img src="img/Transacciones de una cuenta.jpeg" alt="Transacciones de una cuenta" width="750">  
+
+## 🔟| **Aplicar intereses**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/apply-interest</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **POST**  
+
+<img src="img/intereses.jpeg" alt="Aplicar intereses" width="750">  
+
                         
 
 ## 🔑 CREDITOS 
