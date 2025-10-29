@@ -5,7 +5,15 @@ Su objetivo es poder hacer las operaciones que un banco hace normalmente,por eje
 ## 📄 Características
 - Hecho con **Spring Boot + Java**
 - API REST con endpoints documentados
-- probado con Thunder Client  
+- Se uso Springdoc OpenAPI para una documentacion automatica
+- probado con Thunder Client
+
+## 💾 Arquitectura usada
+⁍ **Controller: ** Es el encargado de los endpoints  
+⁍ **Service: ** Contiene la logica del banco  
+⁍ **Repository: ** Gestiona el almacenamiento y lectura de datos en archivos JSON  
+⁍ **Model: ** Define las entidades principales del sistema  
+⁍ **Exception: ** Maneja las excepciones personalizadas del dominio  
 
 ## 📤 Aplicaciones Principales (Obligatorias)
 ‣ 🟦 **Visual Studio Code** | Esta es la App que permite editar todo el codigo, ejecutarlo y instalar las extensiones. | [Descargar](https://vscode.download.prss.microsoft.com/dbazure/download/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/VSCodeUserSetup-x64-1.105.1.exe)  
@@ -72,16 +80,34 @@ Tenemos que crear el "New request"
 
 <img src="img/mostrarJSOn.png" alt="Crear Thunder" width="550">  
 
-## Otros Metodos 
+## Otros Metodos  
+## 👥| Buscar todos los usuarios  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers  
+• Metodo: **GET**  
+
+## 🔍| Buscar Cuenta de un Cliente por ID  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
+• Metodo: **GET**  
+• En la parte {id_cliente}, seria colocar el ID correspondiente de un cliente ya creado  
 
 ## 💰| Crear Cuenta (Corriente)  
 • En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
 • Metodo: **POST**  
 • Archivo JSON:  
 {
-  "type": "1" ,
+  "type": "CHECKING" ,
   "accountId": "1" ,
   "parameter": 300.0
+}  
+
+## 🔑| Crear Cuenta (Ahorros)  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/customers/{id_cliente}/accounts  
+• Metodo: **POST**  
+• Archivo JSON:  
+{
+  "type": "SAVINGS" ,
+  "accountId": "1" ,
+  "parameter": 0.05
 }  
 
 ## 🔎| Buscar Cuenta por ID  
@@ -111,8 +137,123 @@ Tenemos que crear el "New request"
   "amount": 150
 }  
 
+## 💻| Consultar Transacciones de una cuenta  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/transactions      
+• Metodo: **GET**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
+
+## 🧾| Aplicar Intereses a una cuenta de ahorros  
+• En el **URL** debe ir asi: http://localhost:8080/api/bank/accounts/{id_cuenta}/apply-interest      
+• Metodo: **POST**  
+• En la parte {id_cuenta}, seria colocar un ID correspondiente  
+
+# Usando Swagger UI  
+En esta parte se explicara como usar el Swagger UI de **OpenAPI** para generar la documentacion automatica.  
+
+## 🔗 Endpoints principales:  
+Swagger UI (URL): http://localhost:8080/swagger-ui.html  
+Documentación JSON: http://localhost:8080/v3/api-docs  
+
+## ⚙ Información de configuracion (Swagger UI):
+Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>  
+
+## Codigo  
+
+```java
+.title("Mi app de banco")  
+.description("Esta es la descripción del proyecto")  
+.version("1.0.0")  
+.contact(new Contact()  
+.name("Daniel Garcia")  
+.email("correo@ejemplo.com")  
+.url("https://url.de.proyecto.com"))  
+```  
+
+## Prueba con Swagger  
+
+## 1️⃣| **Crear Cliente**  
+⩺ Endpoint: <kbd>/api/bank/customers</kbd>  
+⩺ Metodo: **POST**  
+
+<img src="img/Swagger 1 customer.jpeg" alt="Crear Cliente" width="750">   
+
+## 1️⃣.1️⃣| **Lista todos los clientes**  
+⩺ Endpoint: <kbd>/api/bank/customers</kbd>  
+⩺ Metodo: **GET**  
+
+<img src="img/Swagger 1 get.jpeg" alt="Buscar Clientes" width="750">   
+
+## 2️⃣| **Buscar Cliente Por ID**  
+⩺ Endpoint: <kbd>/api/bank/customers/{customerId}</kbd>  
+⩺ {customerId}: Colocar id valido de un usuario previamente creado    
+⩺ Metodo: **GET**  
+
+<img src="img/Customer id.jpeg" alt="Buscar Cliente Por ID" width="750">   
+
+## 3️⃣| **Crear Cuenta Ahorros o Corriente**  
+**Para  Crear la cuenta es necesario especificar si es (SAVINGS o CHECKING) en la parte de type**
+⩺ Endpoint: <kbd>/api/bank/customers/{customerId}/accounts</kbd>  
+⩺ {customerId}: Colocar id valido de un usuario previamente creado   
+⩺ Metodo: **POST**  
+
+<img src="img/Crear Cuenta Ahorros.jpeg" alt="Crear Cuenta" width="750">   
+
+## 4️⃣| **Listar las cuentas de un cliente**  
+⩺ Endpoint: <kbd>/api/bank/customers/{customerId}/accounts</kbd>  
+⩺ {customerId}: Colocar id valido de un usuario previamente creado   
+⩺ Metodo: **GET**  
+
+<img src="img/Listar cuentas de clientes por id.jpeg" alt="Buscar tipo de cuenta por ID" width="750">   
+
+## 5️⃣| **Consultar Cuenta especifica**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **GET**  
+
+<img src="img/Buscar cuenta por ID.jpeg" alt="Buscar cuenta por ID" width="750">   
+
+## 6️⃣| **Realizar deposito**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/deposit?amount={valor}</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ {valor}: Un monto a colocar
+⩺ Metodo: **POST**  
+
+<img src="img/Deposito.jpeg" alt="Realizar deposito" width="750">  
+
+## 7️⃣| **Realizar retiro**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/withdraw?amount={valor}</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ {valor}: Un monto a retirar  
+⩺ Metodo: **POST**  
+
+<img src="img/Retiro.jpeg" alt="Retirar dinero" width="750">  
+
+## 8️⃣| **Transferir dinero entre cuentas**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{fromAccountId}/transfer</kbd>  
+⩺ {fromAccountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **POST**  
+
+<img src="img/Trasnferir C.jpeg" alt="Transferir entre cuentas" width="750">  
+
+## 9️⃣| **Lista de transacciones de una cuenta**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/transactions</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **GET**  
+
+<img src="img/Transacciones de una cuenta.jpeg" alt="Transacciones de una cuenta" width="750">  
+
+## 🔟| **Aplicar intereses**  
+⩺ Endpoint: <kbd>/api/bank/accounts/{accountId}/apply-interest</kbd>  
+⩺ {accountId}: Colocar id valido de una cuenta creada  
+⩺ Metodo: **POST**  
+
+<img src="img/intereses.jpeg" alt="Aplicar intereses" width="750">  
+
+                        
 
 ## 🔑 CREDITOS 
 
 » Este trabajo fue supervisado por **Daniel Felipe**, quien brindó apoyo constante para que todo funcionara correctamente.  
 Agradezco su ayuda y dedicación durante el desarrollo del proyecto.
+
+» Tambien una parte del "README" me base en el de https://github.com/DanielDev87/logica-solucion-problemas?tab=readme-ov-file , para tener una idea de como hacerlo de manera correcta, gracias.  
