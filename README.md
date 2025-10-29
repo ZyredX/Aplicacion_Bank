@@ -172,13 +172,15 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 ## Prueba con Swagger  
 
 ## 1️⃣| **Crear Cliente**  
-⩺ <kbd>/api/bank/customers</kbd>
+⩺ <kbd>/api/bank/customers</kbd>  
 ⩺ Metodo: **POST**  
+
 <img src="img/Swagger 1 customer.jpeg" alt="Crear Cliente" width="750">   
 
 ## 1️⃣.1️⃣| **Lista todos los clientes**  
-⩺ <kbd>/api/bank/customers</kbd>
+⩺ <kbd>/api/bank/customers</kbd>  
 ⩺ Metodo: **GET**  
+
 <img src="img/Swagger 1 get.jpeg" alt="Crear Cliente" width="750">   
                         
 
