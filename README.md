@@ -105,7 +105,7 @@ Tenemos que crear el "New request"
 • Metodo: **POST**  
 • Archivo JSON:  
 {
-  "type": "SAVING" ,
+  "type": "SAVINGS" ,
   "accountId": "1" ,
   "parameter": 0.05
 }  
@@ -181,7 +181,30 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 ⩺ Endpoint: <kbd>/api/bank/customers</kbd>  
 ⩺ Metodo: **GET**  
 
-<img src="img/Swagger 1 get.jpeg" alt="Crear Cliente" width="750">   
+<img src="img/Swagger 1 get.jpeg" alt="Buscar Clientes" width="750">   
+
+## 2️⃣| **Buscar Cliente Por ID**  
+⩺ Endpoint: <kbd>/api/bank/customers/{customerId}</kbd>  
+⩺ {customerId}: Colocar id valido de un usuario previamente creado    
+⩺ Metodo: **GET**  
+
+<img src="img/Customer id.jpeg" alt="Buscar Cliente Por ID" width="750">   
+
+## 3️⃣| **Crear Cuenta Ahorros o Corriente**  
+**Para  Crear la cuenta es necesario especificar si es (SAVINGS o CHECKING) en la parte de type**
+⩺ Endpoint: <kbd>/api/bank/customers/{customerId}/accounts</kbd>  
+⩺ {customerId}: Colocar id valido de un usuario previamente creado   
+⩺ Metodo: **POST**  
+
+<img src="img/Crear Cuenta Ahorros.jpeg" alt="Crear Cuenta" width="750">   
+
+## 4️⃣| **Listar las cuentas de un cliente**  
+⩺ Endpoint: <kbd>/api/bank/customers/{customerId}/accounts</kbd>  
+⩺ {customerId}: Colocar id valido de un usuario previamente creado   
+⩺ Metodo: **GET**  
+
+<img src="img/Listar cuentas de clientes por id.jpeg" alt="Buscar tipo de cuenta por ID" width="750">   
+
                         
 
 ## 🔑 CREDITOS 
