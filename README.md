@@ -174,7 +174,7 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 ## 1️⃣| <kbd>/api/bank/customers</kbd>  
 ⩺ Metodo: **POST**  
 ⩺ Funcion: **Crear un Cliente**  
-<img src="img/Swagger customer.jpeg" alt="Crear Cliente" width="250">   
+<img src="img/Swagger 1 customer.jpeg" alt="Crear Cliente" width="250">   
                         
 
 ## 🔑 CREDITOS 
