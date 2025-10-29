@@ -255,3 +255,5 @@ Archivo: <kbd> com.logsoluprobl.appbank.config / OpenApiConfig.java </kbd>
 
 » Este trabajo fue supervisado por **Daniel Felipe**, quien brindó apoyo constante para que todo funcionara correctamente.  
 Agradezco su ayuda y dedicación durante el desarrollo del proyecto.
+
+» Tambien una parte del "README" me base en el de https://github.com/DanielDev87/logica-solucion-problemas?tab=readme-ov-file , para tener una idea de como hacerlo de manera correcta, gracias.  
